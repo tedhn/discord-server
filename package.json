@@ -1,0 +1,15 @@
+{
+  "name": "discord-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Discord interactions endpoint (zero dependencies)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "register": "node --env-file=.env register-commands.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
